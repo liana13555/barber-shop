@@ -1,0 +1,46 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.title {
+    font-family: 'Raleway', sans-serif;
+}
+
+.header {
+    background-color: black;
+    color: white;
+}
+
+.hero-btn {
+    border: none;
+    background: transparent;
+}
+
+.container {
+    width: 1200px;
+    padding: 0 15px;
+}
+
+/* HEADER */
+
+.header-nav,
+.nav-list,
+.contact-list,
+.media-list {
+    display: flex;
+}
+
+.header-nav {
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 28px;
+}
+
+.nav-list li{
+    margin-left: 40px;
+}
+
+/* .media-list {
+    position: absolute;
+} */
+
