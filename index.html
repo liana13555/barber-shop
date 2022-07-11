@@ -24,53 +24,55 @@
                 </a>
                 <ul class="nav-list">
                     <li>
-                        <a href="#">О нас</a>
+                        <a href="#about" class="nav-link current">О nás</a>
                     </li>
                     <li>
-                        <a href="#services">Услуги и цены</a>
+                        <a href="#services" class="nav-link">Služby a ceny</a>
                     </li>
                     <li>
-                        <a href="#masters">Мастера</a>
+                        <a href="#masters" class="nav-link">Мастера</a>
                     </li>
                     <li>
-                        <a href="#contacts">Контакты</a>
+                        <a href="#contacts" class="nav-link">Kontakty</a>
                     </li>
                 </ul>
                 <ul class="contact-list">
                     <li>
-                        <a href="tel:+420444111111">+420 111 111 111</a>
+                        <a href="tel:+420444111111" class="nav-link">+420 111 111 111</a>
                     </li>
                     <li>
-                        <a href="#">онлайн-запись</a>
+                        <a href="#onlinesign" class="nav-link online-sign">онлайн-запись</a>
                     </li>
                 </ul>
-                <!-- <ul class="media-list">
+                <ul class="media-list">
                     <li>
-                        <a href="#">Instagram</a>
+                        <a href="#" class="nav-link">Instagram</a>
                     </li>
                     <li>
-                        <a href="#">Youtube</a>
+                        <a href="#" class="nav-link">YouTube</a>
                     </li>
-                </ul> -->
+                </ul>
             </nav>
         </div>
     </header>
     <main>
         <!-- Hero -->
-        <section>
+        <section class="hero">
             <div class="container">
-                <p>A hair salon for men in Kyiv</p>
-                <h1 class="title">BarberShop</h1>
-                <p>Мы эксперты в модных мужских стрижках.
+                <p class="hero-pretitle pretitle">A hair salon for men in the city</p>
+                <h1 class="hero-title title">BarberShop</h1>
+                <p class="hero-desc">Мы эксперты в модных мужских стрижках. <br>
                     Работаем быстро, осторожно и со вкусом.</p>
-                <button class="hero-btn">Назад</button>
-                <button class="hero-btn">Вперед</button>
+                <div class="hero-btns">
+                    <button class="hero-btn">Вперед</button>                    
+                    <button class="hero-btn">Назад</button>
+                </div>
             </div>
         </section>
         <!-- About us -->
-        <section>
+        <section class="about">
             <div class="container">
-                <ul>
+                <ul class="about-images">
                     <li>
                         <img src="./image/img 1.jpg" alt="image">
                     </li>
@@ -78,61 +80,66 @@
                         <img src="./image/img 2.jpg" alt="image">
                     </li>
                 </ul>
-            <div>
-                <p>О НАС</p>
-                <h2>Лучший Барбершоп <br />твоего города</h2>
-                <pre>Если ты хочешь добавить в свой образ больше уверенности – тебе точно к нам.</pre>
-                <pre>Мы команда, которая никогда не останавливается на достигнутом
-                    и жаждет перемен. И когда ты попадешь в руки нашего мастера,
-                    то уже никогда не сможешь быть прежним. Мы команда, которая всегда с клиентами "на одной волне".
-                    Поэтому, мы всегда
-                    готовы усовершенствовать каждого, кто к нам приходит!
-                </pre>
-                <a href="#">онлайн-запись</a>
+                <div>
+                    <p class="about-pretitle pretitle">o nás</p>
+                    <h2 class="about-title title">Nejlepší Barbershop<br/>ve tvém městě</h2>
+                    <p class="about-text">Если ты хочешь добавить в свой образ больше уверенности – тебе точно к нам.</p>
+                    <p class="about-desc">Мы команда, которая никогда не останавливается на достигнутом
+                        и жаждет перемен. И когда ты попадешь в руки нашего мастера,
+                        то уже никогда не сможешь быть прежним. Мы команда, которая всегда с клиентами "на одной волне".
+                        Поэтому, мы всегда
+                        готовы усовершенствовать каждого, кто к нам приходит!
+                    </p>
+                    <a href="#onlinesign" class="online-sign about-sign">онлайн-запись</a>
+                </div>
+            </pre>
             </div>
         </section>
         <!-- Services & prices -->
-        <section>
+        <section class="services">
             <div class="container">
-                <p id="services">Проведи время в компании лучших мастеров</p>
-                <h2 class="title">Услуги и цены</h2>
-                <table>
-                    <tr>
-                        <td>Мужская стрижка</td>
-                        <td>от 300 грн.</td>
-                    </tr>
-                    <tr>
-                        <td>Стрижка бороды</td>
-                        <td>от 200 грн.</td>
-                    </tr>
-                    <tr>
-                        <td>Стрижка усов</td>
-                        <td>от 200 грн.</td>
-                    </tr>
-                    <tr>
-                        <td>Бритье опасной бритвой</td>
-                        <td>от 200 грн.</td>
-                    </tr>
-                </table>
-                <table>
-                    <tr>
-                        <td>Cтрижка у стажера</td>
-                        <td>от 50 грн.</td>
-                    </tr>
-                    <tr>
-                        <td>Стрижка под насадку</td>
-                        <td>от 200 грн.</td>
-                    </tr>
-                    <tr>
-                        <td>Детская стрижка (до 12 лет)</td>
-                        <td>от 300 грн.</td>
-                    </tr>
-                    <tr>
-                        <td>Камуфлирование седины</td>
-                        <td>от 200 грн.</td>
-                    </tr>
-                </table>
-                <a href="#">онлайн-запись</a>
+                <p class="pretitle services-pretitle" id="services">Проведи время в компании лучших мастеров</p>
+                <h2 class="title services-title">Услуги и цены</h2>
+                <div class="tables-wrapper">
+                    <table>
+                        <tr>
+                            <td>Мужская стрижка</td>
+                            <td>от 300 грн.</td>
+                        </tr>
+                        <tr>
+                            <td>Стрижка бороды</td>
+                            <td>от 200 грн.</td>
+                        </tr>
+                        <tr>
+                            <td>Стрижка усов</td>
+                            <td>от 200 грн.</td>
+                        </tr>
+                        <tr>
+                            <td>Бритье опасной бритвой</td>
+                            <td>от 200 грн.</td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td>Cтрижка у стажера</td>
+                            <td>от 50 грн.</td>
+                        </tr>
+                        <tr>
+                            <td>Стрижка под насадку</td>
+                            <td>от 200 грн.</td>
+                        </tr>
+                        <tr>
+                            <td>Детская стрижка (до 12 лет)</td>
+                            <td>от 300 грн.</td>
+                        </tr>
+                        <tr>
+                            <td>Камуфлирование седины</td>
+                            <td>от 200 грн.</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <a href="#onlinesign" class="nav-link online-sign">онлайн-запись</a>
             </div>
         </section>
         <!-- Why we are -->
